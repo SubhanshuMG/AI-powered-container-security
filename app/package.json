@@ -1,0 +1,22 @@
+{
+  "name": "ai-secure-app",
+  "version": "1.0.0",
+  "description": "Node.js App for AI-Powered Container Security Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubhanshuMG/AI-powered-container-security.git"
+  },
+  "author": "Subhanshu Mohan Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SubhanshuMG/AI-powered-container-security/issues"
+  },
+  "homepage": "https://github.com/SubhanshuMG/AI-powered-container-security#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}

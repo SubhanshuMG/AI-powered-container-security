@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-secure-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ai-secure-app
+  template:
+    metadata:
+      labels:
+        app: ai-secure-app
+    spec:
+      containers:
+      - name: ai-secure-app
+        image: your-dockerhub-username/ai-secure-app:latest
+        ports:
+        - containerPort: 3000
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
