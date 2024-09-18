@@ -20,13 +20,16 @@ This repository demonstrates an AI-powered security solution for Docker and Kube
    cd ai-powered-container-security
 
 2. Build the Docker image:
-   ```docker build -t ai-secure-app .
+   ```bash
+   docker build -t ai-secure-app .
 
 3. Run the application in Docker
-   ```docker run -d -p 3000:3000 ai-secure-app
+   ```bash
+   docker run -d -p 3000:3000 ai-secure-app
 
 4. Deploy the application in Kubernetes
-   ```kubectl apply -f kubernetes/ai-secure-app-deployment.yaml
+   ```bash
+   kubectl apply -f kubernetes/ai-secure-app-deployment.yaml
 
 Next Steps:
 - Set up your Aqua Security account.
